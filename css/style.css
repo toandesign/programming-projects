@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&display=swap');
+
+body {
+  height: 100%;
+  font-family: 'Nunito', Quicksand, sans-serif;
+  background-color: rgba(239,239,208,1);
+  background-image: url("../assets/Toan_Paper.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  margin-top:50px;
+  display:block;
+  text-align: center;
+  font-family: 'Nunito', Quicksand, sans-serif;
+}
+
+.project{
+  display: flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  align-items: baseline;
+}
+
 img {
   margin:2vw;
   height:250px;
@@ -8,7 +35,6 @@ h1 {
 
 a {
   color:inherit;
-  text-decoration: underline;
   transition: 0.5s;
 }
 
