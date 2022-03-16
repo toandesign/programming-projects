@@ -1,0 +1,21 @@
+img {
+  margin:2vw;
+  height:250px;
+}
+h1 {
+  color: #408cff;
+}
+
+a {
+  color:inherit;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #0a4194;
+}
+
+container {
+  width: 400px;
+}
